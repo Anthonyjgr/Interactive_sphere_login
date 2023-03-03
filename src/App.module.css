@@ -1,0 +1,31 @@
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.spline_container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.spline {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.FormPage_container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.FormPage {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
